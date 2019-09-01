@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  font-size: 15px;
+  text-align: center;
+}
+
+table{
+  margin: 10px auto;
+}
+
+#dataTable thead{
+  background-color: #e0e0e0;
+}
+
+th, td{
+  padding: 10px;
+}
+
+#searchTable select{
+  margin-right: 10px;
+}
+
+#searchTable select,
+#pageNo span,
+#rowsPerPage input,
+#goToPage input{
+  font-size: 13px;
+  font-weight: bold;
+}
+
+#goToPage input,
+#rowsPerPage input,
+#searchTable input{
+  border: 0px;
+  border-bottom: 1px solid;
+}
